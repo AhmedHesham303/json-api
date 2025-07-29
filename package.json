@@ -2,9 +2,10 @@
   "name": "json-api",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 8080"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3"
   }
 }
